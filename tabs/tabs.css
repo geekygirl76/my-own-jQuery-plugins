@@ -1,0 +1,23 @@
+.content-pane{
+    display: none;
+}
+
+a.active{
+    font-weight: bold;
+
+}
+
+div.content-pane.transitioning {
+    display: block;
+    opacity: 0;
+
+    transition: opacity 500ms linear;
+}
+
+div.content-pane.active{
+
+    display: block;
+    opacity: 1;
+
+    transition: opacity 500ms linear;
+}

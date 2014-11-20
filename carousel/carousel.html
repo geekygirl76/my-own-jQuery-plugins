@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carousel</title>
+        <script src="./jquery-1.11.1.js"></script>
+        <script src="./carousel.js"></script>
+        <link rel="stylesheet" type="text/css" href="./carousel.css">
+
+    </head>
+
+    <body>
+
+        <script>
+            $(function(){
+                $(".carousel").carousel();
+            });
+        </script>
+        <div class="carousel">
+            <div class="items">
+                <img src="./images/cat1.jpeg" />
+                <img src="./images/cat5.jpeg" />
+                <img src="./images/cat8.jpeg" />
+                <img src="./images/cat12.jpeg" />
+                <img src="./images/cat14.jpeg" />
+                <img src="./images/cat15.jpeg" />
+            </div>
+
+            <a href="#" class="slide-left">Prev</a>
+            <a href="#" class="slide-right">Next</a>
+        </div>
+    </body>
+</html>

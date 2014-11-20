@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Dog</title>
+        <script src="./jquery-1.11.1.js"></script>
+        <script src="./tabs.js"></script>
+        <link rel="stylesheet" href="./tabs.css" type="text/css">
+    </head>
+
+    <body>
+        <script>
+        $(function(){
+            $(".tabs").tabs();
+        });
+        </script>
+
+        <ul class="tabs" data-content-tabs="#content-tabs">
+            <li><a href="#chihuahua" class="active">Chihuahua</a></li>
+            <li><a href="#golden-retriever">Golden Retriever</a></li>
+            <li><a href="#bull-dog">Bull Dog</a></li>
+        </ul>
+
+        <div id="content-tabs">
+            <div class="content-pane active" id="chihuahua">
+                <p>
+                    Chihuahua is small dog and they like attentions.
+                </p>
+            </div>
+            <div class="content-pane" id="golden-retriever">
+                <p>
+                    Golden-retriever is big furry nice dog, good at taking care of sheep.
+                </p>
+            </div>
+            <div class="content-pane" id="bull-dog">
+                <p>
+                    They are big guys. They live at Judy and Mike's house. Their names are Max and Rex.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
